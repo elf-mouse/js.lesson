@@ -40,21 +40,21 @@ Web 浏览器只是 ECMAScript 实现的宿主环境之一，其他宿主环境�
 
 #### ECMAScript 历史
 
-> 1997年，ECMAScript1 版发布。
+> 1997年，ECMAScript 1 版发布。
 
-> 1998年6月，ECMAScript2 版发布。
+> 1998年6月，ECMAScript 2 版发布。
 
-> 1999年12月，ECMAScript3 版发布。
+> 1999年12月，ECMAScript 3 版发布。
 
-> 2000年，ECMAScript4 开始酝酿，最终这个版本没有通过。
+> 2000年，ECMAScript 4 开始酝酿，最终这个版本没有通过。
 
-> 2009年12月，ECMAScript5 版发布。
+> 2009年12月，ECMAScript 5 版发布。
 
-> 2011年6月，ECMAscript5.1 版发布，成为国际标准。
+> 2011年6月，ECMAscript 5.1 版发布，成为国际标准。
 
-> 2015年6月，ECMAScript6 正式通过，成为国际标准。
+> 2015年6月，ECMAScript 6 正式通过，成为国际标准。
 
-> 扩展阅读「阮一峰 的[ECMAScript6 入门](http://es6.ruanyifeng.com/)」
+> 扩展阅读「阮一峰 的[《ECMAScript 6 入门》](http://es6.ruanyifeng.com/)」
 
 3.0版是一个巨大的成功，在业界得到广泛支持，成为通行标准，奠定了 JavaScript 语言的基本语法，以后的版本完全继承。直到今天，初学者一开始学习 JavaScript，其实就是在学3.0版的语法。
 
@@ -62,7 +62,7 @@ Web 浏览器只是 ECMAScript 实现的宿主环境之一，其他宿主环境�
 
 文档对象模型（DOM，Document Object Model）是用于 HTML 的应用程序编程接口（API），它把整个页面映射为一个多层节点结构。HTML 页面中的每个组成部分都是某种类型的节点，这些节点又包含着不同类型的数据。看下面这个 HTML 页面：
 
-```html
+``` html
 <html>
     <head>
         <title>Sample Page</title>
@@ -96,7 +96,6 @@ Web 浏览器只是 ECMAScript 实现的宿主环境之一，其他宿主环境�
 - DOM 核心扩展。
 
 > 注意：
-
 > 1. DOM 并不是只针对 JavaScript 的，很多别的语言也都实现了 DOM。
 > 2. DOM0 级标准是不存在的，它只是 DOM 历史坐标中的一个参照点而已。
 
@@ -122,8 +121,8 @@ JavaScript 是一种专为网页交互而设计的脚本语言，由下列3个�
 - 文档对象模型（DOM），提供访问和操作网页内容的方法和接口。
 - 浏览器对象模型（BOM），提供与浏览器交互的方法和接口。
 
-JavaScript 的这3个组成部分，在当前5个主要浏览器（IE、FireFox、Chrome、Safari 和 Opera）中都得到了不同程度的支持。其中，所有浏览器对 ECMAScript 3版本的支持大体上都还不错，而对 ECMAScript 5的支持程度越来越高，但对 DOM 的支持则彼此相差比较多。对于已经正式纳入 HTML5 标准的 BOM 来说，尽管各浏览器都实现了某些众所周知的共同特性，但其他特性还是会因浏览器而异。
+JavaScript 的这3个组成部分，在当前5个主要浏览器（IE、FireFox、Chrome、Safari 和 Opera）中都得到了不同程度的支持。其中，所有浏览器对 ECMAScript 3 版本的支持大体上都还不错，而对 ECMAScript 5 的支持程度越来越高，但对 DOM 的支持则彼此相差比较多。对于已经正式纳入 HTML5 标准的 BOM 来说，尽管各浏览器都实现了某些众所周知的共同特性，但其他特性还是会因浏览器而异。
 
 > 扩展阅读「[Standard ECMA-262 5.1 Edition](http://www.ecma-international.org/ecma-262/5.1/)」
 
-> 扩展阅读「[ECMAScript 5浏览器兼容一览表](http://caniuse.com/#search=es5)」
+> 扩展阅读「[ECMAScript 5 浏览器兼容一览表](http://caniuse.com/#search=es5)」
