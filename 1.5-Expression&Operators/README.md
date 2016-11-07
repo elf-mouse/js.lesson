@@ -29,7 +29,7 @@ JavaScript 中的运算符用于算术表达式、比较表达式、逻辑表达
 | `typeof` | 检测类型 | R | 1 |
 | `void` | 返回`undefined` | R | 1 |
 |||||
-| `*` `/` `%` | 乘，除，求模 | L | 2 | 
+| `*` `/` `%` | 乘，除，求模 | L | 2 |
 | `+` `-` | 加，减| L | 2 |
 | `+` | 字符串连接 | L | 2 |
 | `<<`  | 左移位 | L | 2 |
@@ -104,7 +104,7 @@ void function(){ console.log("you are so useless?"); }
 
 #### `typeof` 运算符
 
-> 请参见[「变量和数据类型」-「数据类型」-「`typeof` 运算符」](https://github.com/stone0090/javascript-lessons/tree/master/1.4-Variable%26Types#typeof-运算符)。
+> 请参见[「变量和数据类型」-「数据类型」-「`typeof` 运算符」](https://github.com/elf-mouse/js.lesson/tree/master/1.4-Variable%26Types#typeof-运算符)。
 
 #### `++` `--` 运算符
 
@@ -124,8 +124,8 @@ console.log(--a);   // 5
 
 #### `~` `!` 运算符
 
-> `~` 按位非运算符，请参见下面[「位运算符」](https://github.com/stone0090/javascript-lessons/tree/master/1.5-Expression&Operators#位运算符)。  
-> `!` 逻辑非运算符，请参见下面[「逻辑运算符」](https://github.com/stone0090/javascript-lessons/tree/master/1.5-Expression&Operators#逻辑运算符)。
+> `~` 按位非运算符，请参见下面[「位运算符」](https://github.com/elf-mouse/js.lesson/tree/master/1.5-Expression&Operators#位运算符)。
+> `!` 逻辑非运算符，请参见下面[「逻辑运算符」](https://github.com/elf-mouse/js.lesson/tree/master/1.5-Expression&Operators#逻辑运算符)。
 
 ### 乘性运算符
 
@@ -430,7 +430,7 @@ console.log(~(-2.999));     // 1
 | 第一个数值的位 | 第二个数值的位 | 结果 |
 | --- | --- | --- |
 | 1 | 1 | 1 |
-| 1 | 0 | 0 | 
+| 1 | 0 | 0 |
 | 0 | 1 | 0 |
 | 0 | 0 | 0 |
 
@@ -441,7 +441,7 @@ console.log(~(-2.999));     // 1
 | 第一个数值的位 | 第二个数值的位 | 结果 |
 | --- | --- | --- |
 | 1 | 1 | 1 |
-| 1 | 0 | 1 | 
+| 1 | 0 | 1 |
 | 0 | 1 | 1 |
 | 0 | 0 | 0 |
 
@@ -452,7 +452,7 @@ console.log(~(-2.999));     // 1
 | 第一个数值的位 | 第二个数值的位 | 结果 |
 | --- | --- | --- |
 | 1 | 1 | 0 |
-| 1 | 0 | 1 | 
+| 1 | 0 | 1 |
 | 0 | 1 | 1 |
 | 0 | 0 | 0 |
 
@@ -601,7 +601,7 @@ console.log(a);     // ???
 
 ``` javascript
 // 挑战九
-var val = 'smtg'; 
+var val = 'smtg';
 console.log('Value is ' + (val === 'smtg') ? 'Something' : 'Nothing');  // ???
 ```
 
