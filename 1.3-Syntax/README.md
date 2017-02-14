@@ -6,7 +6,8 @@ JavaScript 的语法大量借鉴了 C 及其他类 C 语言（如 Java 和 Perl�
 
 JavaScript 程序是用 Unicode 字符集编写的，Unicode 是 ASCII 和 Latin-1 的超集，并支持地球上几乎所有在用的语言。ECMAScript 3 要求 JavaScript 的实现必须支持 Unicode2.1 及后续版本，ECMAScript 5 则要求支持 Unicode3 及后续版本。
 
-> 扩展阅读「[Unicode 与 JavaScript 详解](http://www.ruanyifeng.com/blog/2014/12/unicode.html)」
+> 扩展阅读「Unicode 与 JavaScript 详解」
+> http://www.ruanyifeng.com/blog/2014/12/unicode.html
 
 ## 区分大小写
 
@@ -46,7 +47,8 @@ null            // 空
 function(){ console.log('good'); }    // 函数
 ```
 
-> 扩展阅读「[undefined不是字面量](http://www.cnblogs.com/ziyunfei/archive/2012/11/11/2765096.html)」
+> 扩展阅读「undefined不是字面量」
+> http://www.cnblogs.com/ziyunfei/archive/2012/11/11/2765096.html
 
 ## 严格模式
 

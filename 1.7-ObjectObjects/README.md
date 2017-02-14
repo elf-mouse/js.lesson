@@ -201,9 +201,11 @@ console.log(delete o.x);        // true，删除了属性x
 console.log("x" in o);          // false，属性不再存在
 ```
 
-> 扩展阅读「[JavaScript 检测原始值、引用值、属性](http://shijiajie.com/2016/06/20/javascript-maintainable-javascript-validate1/)」
+> 扩展阅读「JavaScript 检测原始值、引用值、属性」
+> http://shijiajie.com/2016/06/20/javascript-maintainable-javascript-validate1/
 
-> 扩展阅读「[JavaScript 检测之 basevalidate.js](http://shijiajie.com/2016/06/25/javascript-maintainable-javascript-basevalidatejs/)」
+> 扩展阅读「JavaScript 检测之 basevalidate.js」
+> http://shijiajie.com/2016/06/25/javascript-maintainable-javascript-basevalidatejs/
 
 ## 枚举属性
 
@@ -261,7 +263,7 @@ s = JSON.stringify(o);                  // s是 '{"x":1,"y":{"z":[false,null,""]
 p = JSON.parse(s);                      // p是o的深拷贝
 ```
 
-ECMAScript 5 中的这些函数的本地实现和 https://github.com/douglascrockford/JSON-js 中的公共域 ECMAScript 3 版本的实现非常类似，或者说完全一样，因此可以通过引入 `json2.js` 模块在ECMAScript 3的环境中使用 ECMAScript 5 中的这些函数。
+ECMAScript 5 中的这些函数的本地实现和 https://github.com/douglascrockford/JSON-js 中的公共域 ECMAScript 3 版本的实现非常类似，或者说完全一样，因此可以通过引入 `json2.js` 模块在 ECMAScript 3 的环境中使用 ECMAScript 5 中的这些函数。
 
 JSON 的语法是 JavaScript 语法的子集，它并不能表示 JavaScript 里的所有值。它支持对象、数组、字符串、无穷大数字、`true`、`false` 和 `null`，可以序列化和还原它们。`NaN`、`Infinity` 和 `-Infinity` 序列化的结果是 `null`，日期对象序列化的结果是 ISO 格式的日期字符串（参照 `Date.toJSON()` 函数），但 `JSON.parse()` 依然保留它们的字符串形态，而不会将它们还原为原始日期对象。函数、`RegExp`、`Error` 对象和 `undefined` 值不能序列化和还原。`JSON.stringify()` 只能序列化对象可枚举的自有属性。对于一个不能序列化的属性来说，在序列化后的输出字符串中会将这个属性省略掉。`JSON.stringify()` 和 `JSON.parse()` 都可以接收第二个可选参数，通过传入需要序列化或还原的属性列表来定制自定义的序列化或还原操作。
 

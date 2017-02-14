@@ -184,7 +184,7 @@ console.log(Math.floor(25.1));    // 25
 
 ### `random()` 方法
 
-`Math.random()` 方法返回介于0和1之间一个随机数，不包括0和1。对于某些站点来说，这个方法非常实用，因为可以利用它来随机显示一些名人名言和新闻事件。套用下面的公式，就可以利用 `Math.random()` 从某个整数范围内随机选择一个值。
+`Math.random()` 方法返回介于0和1之间一个随机数，包括0而不包括1。对于某些站点来说，这个方法非常实用，因为可以利用它来随机显示一些名人名言和新闻事件。套用下面的公式，就可以利用 `Math.random()` 从某个整数范围内随机选择一个值。
 
 ``` javascript
 值 = Math.floor(Math.random() * 可能值的总数 + 第一个可能的值)
@@ -245,7 +245,7 @@ console.log(color);  // 可能是数组中包含的任何一个字符串
 
 ## 关卡
 
-``` javascript
+```javascript
 // 如何高效产生m个n范围内的不重复随机数（m<=n)
 var getRandomNumber = function(n, m){
     // 待实现方法体

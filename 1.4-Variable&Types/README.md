@@ -81,13 +81,17 @@ console.log(typeof 95);          // "number"
 
 从技术角度讲，函数在 JavaScript 中是对象，不是一种数据类型。然而，函数也确实有一些特殊的属性，因此通过 `typeof` 运算符来区分函数和其他对象是有必要的。
 
-> 扩展阅读「[为什么 JavaScript 里面 `typeof null` 的值是 `"object"`？](https://www.zhihu.com/question/21691758)」
+> 扩展阅读「为什么 JavaScript 里面 `typeof null` 的值是 `"object"`？」
+> https://www.zhihu.com/question/21691758
 
-> 扩展阅读「[MDN 之 `typeof`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/typeof)」
+> 扩展阅读「MDN 之 `typeof`」
+> https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/typeof
 
-> 扩展阅读「[JavaScript 检测原始值、引用值、属性](http://shijiajie.com/2016/06/20/javascript-maintainable-javascript-validate1/)」
+> 扩展阅读「JavaScript 检测原始值、引用值、属性」
+> http://shijiajie.com/2016/06/20/javascript-maintainable-javascript-validate1/
 
-> 扩展阅读「[JavaScript 检测之 basevalidate.js](http://shijiajie.com/2016/06/25/javascript-maintainable-javascript-basevalidatejs/)」
+> 扩展阅读「JavaScript 检测之 basevalidate.js」
+> http://shijiajie.com/2016/06/25/javascript-maintainable-javascript-basevalidatejs/
 
 ### `Undefined` 类型
 
@@ -147,7 +151,8 @@ console.log(messageAsBoolean);  // true
 
 `Number` 类型是 JavaScript 中最令人关注的数据类型，这种类型使用 IEEE 754 格式来表示整数和浮点数值（浮点数值在某些语言中也被称为双精度数值）。和其他编程语言不同，JavaScript 中的所有数字均用浮点数值表示。
 
-> 扩展阅读「[IEEE 754-1985](https://en.wikipedia.org/wiki/IEEE_754-1985)」
+> 扩展阅读「IEEE 754-1985」
+> https://en.wikipedia.org/wiki/IEEE_754-1985
 
 
 #### 整数
@@ -448,6 +453,8 @@ var person = {
 
 > 挑战九，深度阅读下面两篇文章，提出你的疑问。
 >
-> 「[JavaScript 检测原始值、引用值、属性](http://shijiajie.com/2016/06/20/javascript-maintainable-javascript-validate1/)」
+> 「JavaScript 检测原始值、引用值、属性」
+> http://shijiajie.com/2016/06/20/javascript-maintainable-javascript-validate1/
 >
-> 「[JavaScript 检测之 basevalidate.js](http://shijiajie.com/2016/06/25/javascript-maintainable-javascript-basevalidatejs/)」
+> 「JavaScript 检测之 basevalidate.js」
+> http://shijiajie.com/2016/06/25/javascript-maintainable-javascript-basevalidatejs/
